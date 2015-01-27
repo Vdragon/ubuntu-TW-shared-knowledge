@@ -1,7 +1,7 @@
 Good_Guy_Backup
 ===============
-
-Ｖ字龍的好人備份
+Ｖ字龍的好人備份  
+<https://github.com/Vdragon/Good_Guy_Backup>
 
 智慧財產授權條款<br>Intellectual property license
 ----------------------------------------------------
