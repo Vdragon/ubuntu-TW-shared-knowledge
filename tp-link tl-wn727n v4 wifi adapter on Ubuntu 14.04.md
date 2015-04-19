@@ -1,6 +1,6 @@
 # tp-link tl-wn727n v4 wifi adapter on Ubuntu 14.04
 ## 問題（警告：未獲得授權之資源）<br>Issue(Warning: unlicensed resource)
-![tp-link tl-wn727n v4 wifi adapter on Ubuntu 14.04 question](Resources/Pictures/tp-link%20tl-wn727n%20v4%20wifi%20adapter%20on%20Ubuntu%2014.04%20question.png)
+![tp-link tl-wn727n v4 wifi adapter on Ubuntu 14.04 question](資源/圖片/tp-link%20tl-wn727n%20v4%20wifi%20adapter%20on%20Ubuntu%2014.04%20question.png)
 
 ### 問題來源<br />Issue source
 [王詠然](https://www.facebook.com/profile.php?id=100008367465845)於 [Ubuntu 正體中文社團](https://www.facebook.com/groups/ubuntu.zh.hant/806597276062263)發問的問題
