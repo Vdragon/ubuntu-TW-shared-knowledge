@@ -50,6 +50,9 @@ sudo du -a
 	* 要讓 root 或是其他使用者可以存取 FUSE 檔案系統可以參考 `mount.fuse`(8) 的 manpage 格式使用說明修改 /etc/fuse.conf 
 * 以普通使用者身份掛載的 FUSE 檔案系統預設禁止其他身份存取，應能避免 `du` 與 `updatedb.mlocate` 存取造成無謂的資源損耗
 
+## mlocate 部份
+* mlocate 的 `/etc/updatedb.conf` 設定檔可以設定哪些檔案系統不要讓 `updatedb.mlocate` 掃描（Ubuntu 14.04 提供的設定檔預設有排除掉 curlftpfs 檔案系統）
+
 ## 參考資料
 * mount.fuse(8) 的 manpage 格式說明文件
-
+* [updatedb & locate command problem - Files from external hard drive are no longer indexed after rebooting - Ask Ubuntu](http://askubuntu.com/questions/60202/updatedb-locate-command-problem-files-from-external-hard-drive-are-no-longer)
