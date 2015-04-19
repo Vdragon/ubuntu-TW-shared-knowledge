@@ -51,9 +51,13 @@ sudo du -a
 * 以普通使用者身份掛載的 FUSE 檔案系統預設禁止其他身份存取，應能避免 `du` 與 `updatedb.mlocate` 存取造成無謂的資源損耗
 
 ### mlocate 部份
-* mlocate 的 `/etc/updatedb.conf` 設定檔可以設定哪些檔案系統不要讓 `updatedb.mlocate` 掃描（Ubuntu 14.04 提供的設定檔預設有排除掉 curlftpfs 檔案系統）
+* mlocate 的 `/etc/updatedb.conf` 設定檔的「PRUNEFS」key 可以設定哪些檔案系統不要讓 `updatedb.mlocate` 掃描（Ubuntu 14.04 提供的設定檔預設有排除掉 curlftpfs 檔案系統）
+`````
+PRUNEFS="NFS nfs nfs4 rpc_pipefs afs binfmt_misc proc smbfs autofs iso9660 ncpfs coda devpts ftpfs devfs mfs shfs sysfs cifs lustre tmpfs usbfs udf fuse.glusterfs fuse.sshfs curlftpfs ecryptfs fusesmb devtmpfs"
+`````
 
 ## 參考資料
 * mount.fuse(8) 的 manpage 格式說明文件
 * [updatedb & locate command problem - Files from external hard drive are no longer indexed after rebooting - Ask Ubuntu](http://askubuntu.com/questions/60202/updatedb-locate-command-problem-files-from-external-hard-drive-are-no-longer)
 * [GNU Core Utilities - Bugs: bug #25538, excluded files are still stat()ed [Savannah]](http://savannah.gnu.org/bugs/?25538)
+* Ubuntu 14.04 提供的 `mlocate` 軟體包提供的 `/etc/updatedb.conf` 檔案
