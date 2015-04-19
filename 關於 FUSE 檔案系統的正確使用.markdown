@@ -56,3 +56,4 @@ sudo du -a
 ## 參考資料
 * mount.fuse(8) 的 manpage 格式說明文件
 * [updatedb & locate command problem - Files from external hard drive are no longer indexed after rebooting - Ask Ubuntu](http://askubuntu.com/questions/60202/updatedb-locate-command-problem-files-from-external-hard-drive-are-no-longer)
+* [GNU Core Utilities - Bugs: bug #25538, excluded files are still stat()ed [Savannah]](http://savannah.gnu.org/bugs/?25538)
