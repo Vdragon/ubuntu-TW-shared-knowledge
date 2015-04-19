@@ -38,10 +38,13 @@ sudo du -a
 謝謝各位有耐心看到這邊 smile 表情符號
 `````
 
-## 解答
+## 非關問題
 > sudo curlftpfs user:password@192.168.0.100 /mnt/tmp_dir
 
 * 請改用 `-o user=<username>` 取代 `user:password@host` 的用法，避免密碼紀錄在殼程式(shell)的執行命令歷史中
+
+## 解答
+> sudo curlftpfs user:password@192.168.0.100 /mnt/tmp_dir
 
 * 請避免以 root 身份掛載 FUSE 檔案系統，因為用不到（引用 `mount.fuse`(8) 的 manpage 格式使用說明：FUSE also aims to provide a secure method for *non privileged users* to create and mount their own filesystem implementations.）
 
