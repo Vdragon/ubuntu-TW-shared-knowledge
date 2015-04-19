@@ -20,7 +20,7 @@ Ubuntu 正體中文社群共享知識計劃
 ### 將您的新的回答除了原處以外另外提交於此版本倉庫
 您可於原處放置本版本倉庫的連結可將未來的參考者導向到有版本控制的內容，例如：
 `````
-（內容已同步提交於 <https://github.com/Vdragon/Good_Guy_Backup/blob/master/%E9%97%9C%E6%96%BC%20FUSE%20%E6%AA%94%E6%A1%88%E7%B3%BB%E7%B5%B1%E7%9A%84%E6%AD%A3%E7%A2%BA%E4%BD%BF%E7%94%A8.markdown>）
+（內容已同步提交於〈[關於 FUSE 檔案系統的正確使用.markdown](關於%20FUSE%20檔案系統的正確使用.markdown)的 GitHub 網址〉）
 `````
 
 ### 回報內容問題
