@@ -1,4 +1,4 @@
-Ubuntu 正體中文社群共享知識計劃
+非官方 Ubuntu 正體中文社群共享知識計劃
 ================================
 <https://github.com/Vdragon/ubuntu-TW-shared-knowledge>
 
