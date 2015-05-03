@@ -28,6 +28,10 @@ PS2: 上述狀況在本機的硬碟全部拔除，仍可能發生。
 		* \# `grub-install --target=x86_64-efi --uefi-secure-boot  --removable --verbose --efi-directory=〈EFIboot 檔案系統的根目錄〉` 
 	* intel x86（32 位元）處理器架構 UEFI 軔體（極少硬體是這個）
 		* \# `grub-install --target=i386-efi --uefi-secure-boot  --removable --verbose --efi-directory=〈EFIboot 檔案系統的根目錄〉` 
-		
+
+## 問題排解
+### 以 root 身份執行的 grub-install 無法存取 `/media/<username>/<filesystem_id>` 目錄
+這是因為 Udisks 設定進階 ACL 權限設定限制使用者自己掛載的檔案系統只有使用者自己能存取的緣故。
+
 ## 參考資料
 * grub-install(8) 的 manpage 格式說明文件
