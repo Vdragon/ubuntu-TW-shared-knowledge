@@ -30,11 +30,9 @@ NVIDIA GTS-250 via PCI Express
 ### 可能有關或您建檔的軟體缺陷報告網址（請到 https://bugs.launchpad.net/ubuntu/ 搜尋）
 * [Bug #87158 “vesafb automatically loaded while blacklisted” : Bugs : initramfs-tools package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/initramfs-tools/+bug/87158)
 
-### 可能有關的資料
-* [BootGraphicsArchitecture - Ubuntu Wiki](https://wiki.ubuntu.com/BootGraphicsArchitecture)
-* [/usr/share/initramfs-tools/scripts/init-top/framebuffer](file:///usr/share/initramfs-tools/scripts/init-top/framebuffer)
-
 ## 解答
 
 ## 參考資料
+* [BootGraphicsArchitecture - Ubuntu Wiki](https://wiki.ubuntu.com/BootGraphicsArchitecture)
+* [/usr/share/initramfs-tools/scripts/init-top/framebuffer](file:///usr/share/initramfs-tools/scripts/init-top/framebuffer)
 
