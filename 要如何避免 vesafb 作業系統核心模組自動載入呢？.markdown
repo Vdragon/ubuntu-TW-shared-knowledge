@@ -31,8 +31,11 @@ NVIDIA GTS-250 via PCI Express
 * [Bug #87158 “vesafb automatically loaded while blacklisted” : Bugs : initramfs-tools package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/initramfs-tools/+bug/87158)
 
 ## 解答
+因為 Ubuntu 提供的 Linux 作業系統核心把 vesafb FrameBuffer 裝置驅動程式靜態地編譯到核心中所以在沒有 kernel mode settings 顯示驅動下沒辦法使用其他的 FrameBuffer 實作
 
 ## 參考資料
 * [BootGraphicsArchitecture - Ubuntu Wiki](https://wiki.ubuntu.com/BootGraphicsArchitecture)
 * [/usr/share/initramfs-tools/scripts/init-top/framebuffer](file:///usr/share/initramfs-tools/scripts/init-top/framebuffer)
 
+## 特別感謝<br />Credits
+感謝[林耕宇](https://www.facebook.com/kengyu.lin)指點問題所在位置
